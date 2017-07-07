@@ -111,6 +111,10 @@ class HumanPlayer
     @name = name
   end
 
+  def secret_word
+    "your vocabulary sucks!"
+  end
+
   def guess(board)
     puts "Guess a letter of the word"
     gets.chomp.downcase
